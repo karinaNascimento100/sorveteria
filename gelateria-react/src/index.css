@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* base pastel */
+:root{
+  --bg-grad: linear-gradient(180deg, #F8C9D0 0%, #BFE2E7 100%);
+}
+html,body,#root{height:100%;}
+body{ @apply text-text; background: var(--bg-grad); }
+.container-sweet{ @apply w-full max-w-[1200px] mx-auto px-4; }
+.btn{ @apply inline-block rounded-full font-semibold transition; }
+.btn-primary{ @apply btn px-5 py-3 text-white; background:#F08DA8; box-shadow:0 8px 20px rgba(240,141,168,.35);} 
+.btn-primary:hover{ background:#FF7BA9; box-shadow:0 10px 24px rgba(255,123,169,.4);} 
+.btn-outline{ @apply btn px-4 py-2 border-2 border-teal-700 text-teal-700; }
+.btn-outline:hover{ @apply text-white bg-teal-700; }

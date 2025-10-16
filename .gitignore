@@ -1,0 +1,25 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Root Node deps (if present)
+node_modules/
+
+# Node/Vite (app folder)
+gelateria-react/node_modules/
+gelateria-react/dist/
+gelateria-react/.vite/
+gelateria-react/.vercel/
+gelateria-react/.netlify/
+
+# Env files (if any later)
+gelateria-react/.env*
